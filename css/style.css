@@ -8,8 +8,7 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
-  font-family: 'lumberjack'; }
+  background: transparent; }
 
 nav {
   position: fixed;
@@ -20,7 +19,8 @@ nav {
   border-bottom: solid black 1px;
   background-color: black;
   opacity: .8;
-  z-index: 99; }
+  z-index: 99;
+  font-family: 'lumberjack'; }
   nav a {
     display: block;
     text-decoration: none;
@@ -48,7 +48,8 @@ nav {
       color: orange; }
 
 #hello {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: 'lumberjack'; }
 
 #helloContent1 {
   clear: both;
@@ -86,7 +87,8 @@ nav {
 
 #about {
   margin-top: -5px;
-  height: 100vh; }
+  height: 100vh;
+  font-family: 'lumberjack'; }
 
 .sidebar {
   -webkit-box-sizing: border-box;
@@ -134,5 +136,20 @@ nav {
   font-family: 'Inconsolata', monospace;
   font-size: 18px;
   background-color: #1B2B34; }
+
+#skillsContent {
+  padding-top: 60px;
+  background-color: #bbbcbf; }
+
+#skillsChart {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  margin: 0 auto;
+  max-width: 45vw;
+  max-height: 90vh; }
 
 /*# sourceMappingURL=style.css.map */

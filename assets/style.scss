@@ -3,6 +3,8 @@
 	src: url(LumberjackInlineRough.otf)
 }
 
+
+
 * {
 	margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-	font-family: 'lumberjack';
+	
 	// font-family: 'Work Sans', sans-serif;
 }
 
@@ -25,6 +27,7 @@ nav {
 	background-color: black;
 	opacity: .8;
 	z-index: 99;
+	font-family: 'lumberjack';
 
 	a {
 		display: block;
@@ -63,6 +66,7 @@ nav {
 
 #hello {
 	margin-bottom: 0;
+	font-family: 'lumberjack';
 }
 
 #helloContent1 {
@@ -106,6 +110,7 @@ nav {
 #about {
 	margin-top: -5px;
 	height: 100vh;
+	font-family: 'lumberjack';
 	//background-color: grey;
 }
 
@@ -146,6 +151,21 @@ nav {
 	font-family: 'Inconsolata', monospace;
 	font-size: 18px;
 	background-color: #1B2B34;
+
+}
+
+#skillsContent {
+		padding-top: 60px;
+		background-color: rgb(187, 188, 191);
+}
+
+#skillsChart {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	margin: 0 auto;
+	max-width: 45vw;
+	max-height: 90vh;
 
 }
 
