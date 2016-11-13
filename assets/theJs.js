@@ -15,7 +15,7 @@ $(function() {
       }
     });
   });
-
+//fade in content on landing
 $("#helloContent1").fadeIn(2000).promise().done(function() {
     $('#helloContent2').fadeIn(2000);
 });
