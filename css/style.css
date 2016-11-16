@@ -149,7 +149,9 @@ nav {
 
 #projectsSidebar {
   padding-top: 60px;
-  font-family: 'lumberjack'; }
+  font-family: 'lumberjack';
+  background-color: #292633;
+  color: white; }
 
 #prevArrow {
   background-color: #2196F3;
@@ -173,9 +175,27 @@ nav {
   padding-top: 10px; }
 
 .projectDescribe {
-  clear: both; }
+  clear: both;
+  margin: 30px 10px 0px 10px; }
+  .projectDescribe h1 {
+    border-bottom: 1px solid white;
+    font-size: 20px; }
+  .projectDescribe a {
+    color: #4286f4; }
+  .projectDescribe a:hover {
+    color: pink; }
 
 #projectsContent {
   padding-top: 60px; }
+
+.languages {
+  font-size: 20px;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 3px;
+  margin-top: 3px;
+  border: 1px solid blue;
+  border-radius: 6px;
+  background-color: rgba(66, 134, 244, 0.5); }
 
 /*# sourceMappingURL=style.css.map */
