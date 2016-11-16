@@ -148,23 +148,32 @@ nav {
   max-height: 90vh; }
 
 #projectsSidebar {
-  padding-top: 60px; }
+  padding-top: 60px;
+  font-family: 'lumberjack'; }
 
-#prevArrrow {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 0;
-  left: 0;
-  border: 1px solid black; }
+#prevArrow {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 10%;
+  opacity: 0.85;
+  text-align: center; }
 
 #nextArrow {
-  position: absolute;
-  width: 100px;
-  height: 100px;
+  background-color: #F44336;
+  padding: 20px;
   float: right;
-  top: 0;
-  border: 1px solid black; }
+  width: 10%;
+  opacity: 0.85;
+  text-align: center; }
+
+.projectTitle {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px; }
+
+.projectDescribe {
+  clear: both; }
 
 #projectsContent {
   padding-top: 60px; }
