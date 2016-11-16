@@ -20,4 +20,18 @@ $("#helloContent1").fadeIn(2000).promise().done(function() {
     $('#helloContent2').fadeIn(2000);
 });
 
+$(".projectNav").slick({
+  dots: true,
+  infinite: true,
+  asNavFor: "#projectsContent",
+})
+
+$("#projectsContent").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+
+})
+
 })

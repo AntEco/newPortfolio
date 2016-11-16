@@ -3,8 +3,6 @@
 	src: url(LumberjackInlineRough.otf)
 }
 
-
-
 * {
 	margin: 0;
     padding: 0;
@@ -64,6 +62,27 @@ nav {
 
 }
 
+.sidebar {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 30vw;
+	background-color: gray;
+	float: right;
+	height: 100vh;
+	border-bottom: 1px solid black;
+}
+
+.mainContent {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 70vw;
+	background-color: lightgray;
+	height: 100vh;
+	border-bottom: 1px solid black;
+}
+
 #hello {
 	margin-bottom: 0;
 	font-family: 'lumberjack';
@@ -114,27 +133,6 @@ nav {
 	//background-color: grey;
 }
 
-.sidebar {
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-	width: 30vw;
-	background-color: gray;
-	float: right;
-	height: 100vh;
-	border-bottom: 1px solid black;
-}
-
-.mainContent {
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-	width: 70vw;
-	background-color: lightgray;
-	height: 100vh;
-	border-bottom: 1px solid black;
-}
-
 #aboutSidebar {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -149,8 +147,9 @@ nav {
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	padding: 60px 15px 0 25px;
 	font-family: 'Inconsolata', monospace;
-	font-size: 18px;
+	font-size: 20px;
 	background-color: #1B2B34;
+	overflow-y: auto;
 
 }
 
@@ -160,13 +159,40 @@ nav {
 }
 
 #skillsChart {
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
 	margin: 0 auto;
 	max-width: 45vw;
 	max-height: 90vh;
 
+}
+
+#projectsSidebar {
+	padding-top: 60px;
+}
+
+#prevArrrow {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 0;
+	border: 1px solid black;
+}
+
+#nextArrow {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	float: right;
+	top: 0;
+	border: 1px solid black;
+}
+
+.projectNav {
+	//float: left;
+}
+
+#projectsContent {
+	padding-top: 60px;
 }
 
 
