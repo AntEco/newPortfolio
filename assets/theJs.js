@@ -71,42 +71,12 @@ $("#nextArrow").click(function(){
   plusDivs(1)
 });
 
-var picIndex = 1;
-showPics(picIndex);
-
-function plusPics(n) {
-  showPics(picIndex += n);
-}
-
-function currentPic(n) {
-  showPics(picIndex = n);
-}
-
-function showPics(n) {
-  var pics = document.getElementsByClassName("ffimage");
-  var dots = document.getElementsByClassName("dot");
-  if (n > pics.length) {picIndex = 1} 
-  if (n < 1) {picIndex = pics.length}
-  for (i = 0; i < pics.length; i++) {
-      pics[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  pics[picIndex-1].style.display = "block"; 
-  dots[picIndex-1].className += " active";
-}
-
-$(".prev").click(function(){
-    plusPics(-1)
-});
-
-$(".next").click(function(){
-    plusPics(1)
-});
-
-$(".dot").click(function(){
-    currentPic(n)
+$('.carousel').slick({
+  dots: true,
+  slidesToShow: 1,
+  fade: true,
+  centerMode: true,
+  speed: 2000
 });
 
 })
