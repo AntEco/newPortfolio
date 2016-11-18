@@ -199,6 +199,17 @@ nav {
 
 }
 
+#ffTitle {
+	font-size: 40px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#wotTitle {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+
 .projectDescribe {
 	clear: both;
 	margin: 30px 10px 0px 10px;
@@ -230,7 +241,7 @@ nav {
 }
 
 #fairFare {
-	background-image: url("cabBG.jpeg");
+	background-image: url("newCab.jpg");
 	background-size: 100vw;
 	background-repeat: no-repeat;
 	//background-color: black;
@@ -249,6 +260,6 @@ nav {
 	}
 }
 
-.slick-next.slick-arrow {
-	
+.slick-dots {
+	color: white;
 }

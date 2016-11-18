@@ -176,6 +176,15 @@ nav {
   font-size: 30px;
   padding-top: 10px; }
 
+#ffTitle {
+  font-size: 40px;
+  font-family: 'Fira Sans', sans-serif; }
+
+#wotTitle {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black; }
+
 .projectDescribe {
   clear: both;
   margin: 30px 10px 0px 10px; }
@@ -201,7 +210,7 @@ nav {
   background-color: rgba(66, 134, 244, 0.5); }
 
 #fairFare {
-  background-image: url("cabBG.jpeg");
+  background-image: url("newCab.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
   height: 100vh; }
@@ -213,5 +222,8 @@ nav {
     padding-left: 40px;
     width: 25%;
     margin-top: 5vh; }
+
+.slick-dots {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
