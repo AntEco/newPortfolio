@@ -59,7 +59,7 @@
 
 	<div id="skills">
 		<div id="skillsSidebar" class="sidebar">
-			<!-- The spans are there to create the desired font coloring to make it look like sublimetext -->
+			<!-- Following section contains spans to create the desired font coloring to make it look like sublimetext -->
 			<span style="color:#5EB3B3">.</span>
 			<span style="color:#BB80B3">HTML</span>&nbsp;
 			<span style="color:#5EB3B3">{</span><br>
@@ -74,7 +74,7 @@
 			<span style="color:#5EB3B3">{</span><br>
 			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
 			<span style="color:#5EB3B3">:</span>
-			<span style="color:#F99157"> 60</span>
+			<span style="color:#F99157"> 65</span>
 			<span style="color:#5EB3B3">;<br>
 			}<br>
 			<br>
@@ -97,6 +97,15 @@
 			}<br>
 			<br>
 			<span style="color:#5EB3B3">.</span>
+			<span style="color:#BB80B3">motivation</span>&nbsp;
+			<span style="color:#5EB3B3">{</span><br>
+			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
+			<span style="color:#5EB3B3">:</span>
+			<span style="color:#F99157"> 90</span>
+			<span style="color:#5EB3B3">;<br>
+			}<br>
+			<br>
+			<span style="color:#5EB3B3">.</span>
 			<span style="color:#BB80B3">Ruby</span>&nbsp;
 			<span style="color:#5EB3B3">{</span><br>
 			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
@@ -115,38 +124,20 @@
 			}<br>
 			<br>
 			<span style="color:#5EB3B3">.</span>
+			<span style="color:#BB80B3">worksWellWithOthers</span>&nbsp;
+			<span style="color:#5EB3B3">{</span><br>
+			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
+			<span style="color:#5EB3B3">:</span>
+			<span style="color:#F99157"> 90</span>
+			<span style="color:#5EB3B3">;<br>
+			}<br>
+			<br>
+			<span style="color:#5EB3B3">.</span>
 			<span style="color:#BB80B3">senseOfHumor</span>&nbsp;
 			<span style="color:#5EB3B3">{</span><br>
 			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
 			<span style="color:#5EB3B3">:</span>
-			<span style="color:#F99157"> 100</span>
-			<span style="color:#5EB3B3">;<br>
-			}<br>
-			<br>
-			<span style="color:#5EB3B3">.</span>
-			<span style="color:#BB80B3">newAttribute</span>&nbsp;
-			<span style="color:#5EB3B3">{</span><br>
-			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
-			<span style="color:#5EB3B3">:</span>
-			<span style="color:#F99157"> 80</span>
-			<span style="color:#5EB3B3">;<br>
-			}<br>
-			<br>
-			<span style="color:#5EB3B3">.</span>
-			<span style="color:#BB80B3">newAttribute</span>&nbsp;
-			<span style="color:#5EB3B3">{</span><br>
-			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
-			<span style="color:#5EB3B3">:</span>
-			<span style="color:#F99157"> 80</span>
-			<span style="color:#5EB3B3">;<br>
-			}<br>
-			<br>
-			<span style="color:#5EB3B3">.</span>
-			<span style="color:#BB80B3">newAttribute</span>&nbsp;
-			<span style="color:#5EB3B3">{</span><br>
-			<span style="color:#FAC862">&nbsp;&nbsp;&nbsp;&nbsp;value</span>
-			<span style="color:#5EB3B3">:</span>
-			<span style="color:#F99157"> 80</span>
+			<span style="color:#F99157"> 90</span>
 			<span style="color:#5EB3B3">;<br>
 			}<br>
 			<br>
@@ -158,15 +149,16 @@
 				var myChart = new Chart(ctx, {
 				  type: 'polarArea',
 				  data: {
-				    labels: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Ruby', 'Rails', 'Sense of Humor'],
+				    labels: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Motivation', 'Ruby', 'Rails', 'Team Player', 'Sense of Humor'],
 				    datasets: [{
-				      data: [80, 60, 70, 50, 20, 50, 100],
-				      backgroundColor: ["rgba(244, 158, 66, .7)", "rgba(66, 134, 244, .7)", "rgba(149, 66, 244, .7)", "rgba(76, 240, 255, .7)", "rgba(244, 220, 66, .7)", "rgba(244, 66, 66, .7)", "rgba(66, 244, 173, .7)"],
+				      data: [80, 65, 70, 50, 100, 20, 50, 90, 85,],
+				      backgroundColor: ["rgba(244, 158, 66, .7)", "rgba(66, 134, 244, .7)", "rgba(149, 66, 244, .7)", "rgba(76, 240, 255, .7)", "rgba(66, 244, 173, .7)", "rgba(244, 220, 66, .7)", "rgba(244, 66, 66, .7)"],
 				    }]
 				  },
 				  options: {
 			        legend: {
 			            display: true,
+			            startAngle: 25,
 			            labels: {
 			                fontColor: 'rgb(0, 0, 0)',
 			                fontSize: 15

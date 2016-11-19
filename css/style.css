@@ -59,7 +59,8 @@ nav {
   background-color: gray;
   float: right;
   height: 100vh;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+  overflow-y: auto; }
 
 .mainContent {
   -webkit-box-sizing: border-box;
@@ -71,7 +72,8 @@ nav {
   width: 70vw;
   background-color: lightgray;
   height: 100vh;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+  overflow-y: auto; }
 
 #hello {
   margin-bottom: 0;
