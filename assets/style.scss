@@ -245,34 +245,56 @@ nav {
 }
 
 #fairFare {
-	background-image: url("newCab.jpg");
-	background-size: 100vw;
-	background-repeat: no-repeat;
-	//background-color: black;
-	// width: auto;
+	background: url("newCab.jpg") no-repeat center center fixed; 
 	height: 100vh;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 }
 
 #ffCarousel {
-
 	margin: 0 auto;
-	width: 25vw;
-	.fairfimage {
-		//border: 1px solid white;
-		padding-left: 40px;
-		width: 25%;
-		margin-top: 5vh;
-		//margin-left: 50%;
+	width: 25vw;	
+}
+
+.fairfimage {
+	padding-left: 40px;
+	img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+}
+
+.leftCarArrow {
+	color: white;
+	position: relative;
+	top: 40vh;
+	left: 20vw;
+	img {
+		width: auto;
+		height: auto;
+		max-width: 5vw;
+		max-height: 5vh;
 	}
 }
 
-// .slick-dots {
-// 	color: white;
-// }
-
-.fuck, .shit {
+.rightCarArrow {
 	color: white;
+	position: relative;
+	top: 40vh;
+	left: 46vw;
+	img {
+		width: auto;
+		height: auto;
+		max-width: 5vw;
+		max-height: 5vh;
+		-ms-transform: rotate(180deg); /* IE 9 */
+    	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    	transform: rotate(180deg);
+	}
 }
 
 
@@ -286,14 +308,4 @@ nav {
 	background-color: black;
 
 
-}
-
-#img {
-
-   // background: url("windowOfTimeGameplayVid.gif") no-repeat center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }

@@ -99,15 +99,19 @@ function carShowDivs(n) {
     x[carSlideIndex-1].style.display = "block"; 
 }
 
-$(".fuck").click(function(){
+$(".leftCarArrow").click(function(){
     carPlusDivs(-1)
 });
 
-$(".shit").click(function(){
-    carPlusDivs(-1)
+$(".rightCarArrow").click(function(){
+    carPlusDivs(1)
 });
 
 
 
+// $(window).resize(function() {
+//   var img = $('.fairfimage');
+//   img.style.width = "100%";
+// });
 
 })

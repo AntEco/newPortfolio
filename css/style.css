@@ -213,21 +213,51 @@ nav {
   background-color: rgba(66, 134, 244, 0.5); }
 
 #fairFare {
-  background-image: url("newCab.jpg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  height: 100vh; }
+  background: url("newCab.jpg") no-repeat center center fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 #ffCarousel {
   margin: 0 auto;
   width: 25vw; }
-  #ffCarousel .fairfimage {
-    padding-left: 40px;
-    width: 25%;
-    margin-top: 5vh; }
 
-.fuck, .shit {
-  color: white; }
+.fairfimage {
+  padding-left: 40px; }
+  .fairfimage img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */ }
+
+.leftCarArrow {
+  color: white;
+  position: relative;
+  top: 40vh;
+  left: 20vw; }
+  .leftCarArrow img {
+    width: auto;
+    height: auto;
+    max-width: 5vw;
+    max-height: 5vh; }
+
+.rightCarArrow {
+  color: white;
+  position: relative;
+  top: 40vh;
+  left: 46vw; }
+  .rightCarArrow img {
+    width: auto;
+    height: auto;
+    max-width: 5vw;
+    max-height: 5vh;
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(180deg); }
 
 #windowOfTime {
   height: 100%;
@@ -237,12 +267,5 @@ nav {
   background-size: contain;
   background-position: center;
   background-color: black; }
-
-#img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
