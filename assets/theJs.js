@@ -71,12 +71,43 @@ $("#nextArrow").click(function(){
   plusDivs(1)
 });
 
-$('.carousel').slick({
-  dots: true,
-  slidesToShow: 1,
-  fade: true,
-  centerMode: true,
-  speed: 2000
+// $('.carousel').slick({
+
+//   dots: true,
+//   slidesToShow: 1,
+//   fade: true,
+//   centerMode: true,
+//   speed: 2000
+// });
+
+var carSlideIndex = 1;
+
+carShowDivs(carSlideIndex);
+
+function carPlusDivs(n) {
+    carShowDivs(carSlideIndex += n);
+}
+
+function carShowDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("fairfimage");
+    if (n > x.length) {carSlideIndex = 1} 
+    if (n < 1) {carSlideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[carSlideIndex-1].style.display = "block"; 
+}
+
+$(".fuck").click(function(){
+    carPlusDivs(-1)
 });
+
+$(".shit").click(function(){
+    carPlusDivs(-1)
+});
+
+
+
 
 })
