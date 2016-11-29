@@ -249,21 +249,23 @@ nav {
 	background-size: 100vw;
 	background-repeat: no-repeat;
 	//background-color: black;
+	// width: auto;
 	height: 100vh;
+
 }
 
-// #ffCarousel {
+#ffCarousel {
 
-// 	margin: 0 auto;
-// 	width: 25vw;
-// 	.fairfimage {
-// 		//border: 1px solid white;
-// 		padding-left: 40px;
-// 		width: 25%;
-// 		margin-top: 5vh;
-// 		//margin-left: 50%;
-// 	}
-// }
+	margin: 0 auto;
+	width: 25vw;
+	.fairfimage {
+		//border: 1px solid white;
+		padding-left: 40px;
+		width: 25%;
+		margin-top: 5vh;
+		//margin-left: 50%;
+	}
+}
 
 // .slick-dots {
 // 	color: white;
@@ -274,9 +276,16 @@ nav {
 }
 
 
-#gameImage {
-	//height: 0;
-	position: relative;
+#windowOfTime {
+	height: 100%;
+	width: 100%;
+	background-image: url('windowOfTimeGameplayVid.gif');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: black;
+
+
 }
 
 #img {

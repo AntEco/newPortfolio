@@ -218,11 +218,25 @@ nav {
   background-repeat: no-repeat;
   height: 100vh; }
 
+#ffCarousel {
+  margin: 0 auto;
+  width: 25vw; }
+  #ffCarousel .fairfimage {
+    padding-left: 40px;
+    width: 25%;
+    margin-top: 5vh; }
+
 .fuck, .shit {
   color: white; }
 
-#gameImage {
-  position: relative; }
+#windowOfTime {
+  height: 100%;
+  width: 100%;
+  background-image: url("windowOfTimeGameplayVid.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: black; }
 
 #img {
   position: absolute;
